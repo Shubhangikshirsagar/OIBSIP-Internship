@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Task2 Portfolio</title>
+    <link rel="stylesheet" href="styly.css" />
+    <style>
+      nav {
+        padding: 10px 20px; /* Padding inside the navigation bar */
+      }
+
+      ul {
+        list-style-type: none; /* Remove default list styling */
+        margin: 0; /* Remove default margin */
+        padding: 0; /* Remove default padding */
+        display: flex; /* Use flexbox */
+        justify-content: flex-end; /* Align items to the end of the container */
+      }
+
+      li {
+        margin-left: 10px; /* Margin between list items */
+      }
+
+      li:first-child {
+        margin-left: 0; /* Remove margin for the first list item */
+      }
+
+      a {
+        text-decoration: none; /* Remove underline from links */
+        color: rgb(150, 9, 9); /* Text color of links */
+        padding: 8px 16px; /* Padding inside links */
+        border-radius: 5px; /* Rounded corners for links */
+        transition: background-color 0.3s; /* Smooth transition for background color */
+      }
+
+      a:hover {
+        background-color: #555555; /* Background color of links on hover */
+      }
+
+      /* Styling the link */
+      a {
+        color: blue;
+        text-decoration: none;
+        border-bottom: 1px solid blue;
+      }
+
+      /* Styling the link when hovered */
+      a:hover {
+        color: red;
+        border-bottom-color: red;
+      }
+
+      section {
+        display: grid;
+        grid-template-columns: auto 1fr; /* Two columns, first one auto-sized (width based on content), second one takes up remaining space */
+        align-items: center; /* Vertically center items */
+        gap: 20px; /* Gap between columns */
+        margin-top: 20px; /* Add margin-top to create space between sections */
+      }
+
+      .profily {
+        height: 270px;
+        width: 270px;
+        border-radius: 50%;
+      }
+
+      body {
+        border: 10px solid #040704; /* Green border */
+        border-radius: 20px; /* Rounded border corners */
+        padding: 20px; /* Optional: Add padding to create space between the border and content */
+      }
+
+      .button-container {
+        display: flex; /* Use flexbox */
+        justify-content: space-between; /* Distribute space between buttons */
+        align-items: center; /* Center items vertically */
+        gap: 20px; /* Gap between buttons */
+      }
+
+      .button {
+        padding: 10px 20px; /* Padding inside the button */
+        border: none; /* No border */
+        border-radius: 5px; /* Rounded corners */
+        background-color: #007bff; /* Button background color */
+        color: #fff; /* Button text color */
+        text-decoration: none; /* Remove default link underline */
+        font-size: 16px; /* Button text size */
+      }
+
+      .hiee {
+        padding: 10px 20px; /* Padding inside the button */
+        border: none; /* No border */
+        border-radius: 5px; /* Rounded corners */
+        text-decoration: none; /* Remove default link underline */
+        font-size: 16px; /* Button text size */
+      }
+
+      .hiee-container {
+        display: flex; /* Use flexbox */
+
+        align-items: center; /* Center items vertically */
+      }
+
+      .image-container {
+        text-align: center; /* Align images to the center */
+      }
+      .codingy {
+        display: inline-block; /* Display images inline */
+        margin: 1px; /* Add some space between images */
+        width: 50px; /* Adjust width as needed */
+        height: 50px; /* Maintain aspect ratio */
+      }
+    </style>
+  </head>
+  <body>
+    <nav>
+      <ul>
+        <li><a href="#">Skills</a></li>
+        <li><a href="#">Open source</a></li>
+        <li><a href="#">Projects</a></li>
+        <li><a href="#">Achevements</a></li>
+        <li><a href="#">Blogs</a></li>
+        <li><a href="#">Talks</a></li>
+      </ul>
+    </nav>
+
+    <!-- <header>
+        <h1>SHUBHANGI KSHIRSAGAR</h1>
+        <img src="mailbox.jpg" alt="mailbox" class="box">
+        <a href="mailto">mailsskshirsagar@gmail.com</a>
+        <p>
+            <img src="call.png" alt="call" class="box">
+            +9172394968
+            <img src="address.jpg" alt="address" class="box">
+            A/p-Soundane, Tal-Mohol, Dist-Solapur, Pin-413213
+            <img src="dob.jpg" alt="dob" class="box">
+            04/02/1998
+        </p>
+        <h2>Web developer</h2>
+        
+    </header> -->
+
+    <section>
+      <div class="about-box">
+        <h2>About Me</h2>
+        <section class="hiee-container">
+          <h3>Hi I am Shubhangi</h3>
+          <img src="hi.jpg" alt="hi" class="hello" />
+        </section>
+
+        <p>
+          A passionate Full Stack Software developer having an experience of
+          building web and mobile application with <br />
+          Javascript/reactJs/NodeJs/ and some other cool libraries and
+          frameworks To achieve a responsible position and personal <br />goals
+          by exploring myself more efficiently in an industry with full
+          determination and expand my knowledge by working hard and learning new
+          technologies
+        </p>
+      </div>
+      <div>
+        <img src="profile.jpg" alt="" class="profily" />
+      </div>
+    </section>
+
+    <section>
+      <div>
+        <ul class="social-icons">
+          <li>
+            <a
+              href="https://github.com/your_username"
+              target="_blank"
+              title="GitHub"
+              ><img src="git.png" alt="GitHub"
+            /></a>
+          </li>
+          <li>
+            <a
+              href="https://www.linkedin.com/in/your_username"
+              target="_blank"
+              title="LinkedIn"
+              ><img src="linkedin.png" alt="LinkedIn"
+            /></a>
+          </li>
+          <li>
+            <a href="https://www.google.com" target="_blank" title="Google"
+              ><img src="instagram.png" alt="Google"
+            /></a>
+          </li>
+          <li>
+            <a
+              href="https://www.facebook.com/your_username"
+              target="_blank"
+              title="Facebook"
+              ><img src="facebook.png" alt="Facebook"
+            /></a>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section>
+      <div class="button-container">
+        <button class="button">Contact Me</button>
+        <button class="button">See My Resume</button>
+      </div>
+    </section>
+
+
+
+
+
+
+
+
+    <section class="did">
+      <div>
+        <img src="coding.jpg" alt="" class="codingg" />
+      </div>
+      <div class="doing">
+        <h1>What i do</h1>
+        <h4>CRAZY FULL STACK DEVELOPER WHO WANT TO EXPLORE EVERY TECH STACK</h4>
+        <div class="image-container">
+          <img src="html.png" alt="" class="codingy" />
+          <img src="react.png" alt="" class="codingy" />
+          <img src="js.png" alt="" class="codingy" />
+          <img src="aws.png" alt="" class="codingy" />
+          <img src="css].png" alt="" class="codingy" />
+          <img src="springboot.png" alt="" class="codingy" />
+
+          <img src="docker.png" alt="" class="codingy" />
+          <img src="angular.png" alt="" class="codingy" />
+          <img src="nodew.png" alt="" class="codingy" />
+        </div>
+        <h5>
+          Develop highly interactive Front end/User interface for your web and
+          mobile applications
+        </h5>
+        <h5>Progressive Web applications[PWA] in normal and SPA Stacks</h5>
+        <h5>
+          Integration of third party servicessuch asMysql/AWS/Digital Ocean
+        </h5>
+      </div>
+    </section>
+
+
+
+
+
+    <section>
+      <div >
+        <div class="image-container">
+          <p>HTML</p>
+          <div class="contain">
+            <div class="skills html">90%</div>
+          </div>
+          
+          <p>CSS</p>
+          <div class="contain">
+            <div class="skills css">80%</div>
+          </div>
+          
+          <p>JavaScript</p>
+          <div class="contain">
+            <div class="skills js">65%</div>
+          </div>
+          
+          <p>JAVA</p>
+          <div class="contain">
+            <div class="skills java">60%</div>
+          </div>
+
+        </div>
+      </div>
+
+      <div>
+        <img src="prof.jpg" alt="" class="profey" />
+      </div>
+
+
+    </section>
+
+
+<section> <div class="pr">
+  <h1> Open Source Projects</h1><br>
+</div></section>
+
+
+<section>
+ 
+
+
+
+<div class="proje">
+
+
+  <div>
+    <div><H3>Courier Management System.</H3> 
+      <P>OOPS</P> 
+      <img src="views.png" alt="" class="proj"> 
+      <img src="starrate.png" alt="" class="proj"> 
+    </div>
+
+
+
+    <div><H3>Real Estate Property.
+    </H3> <P>CSS | HTML | JavaScript | React .</P>
+    <img src="views.png" alt="" class="proj"> 
+    <img src="starrate.png" alt="" class="proj"> 
+  </div>
+</div>
+
+
+
+<div>
+     <div><H3>Online Food Ordering System. </H3>
+      <P>React.js | SpringBoot | MySQL</P>
+      <img src="views.png" alt="" class="proj"> 
+      <img src="starrate.png" alt="" class="proj"> 
+    </div>
+
+
+     <div><H3>Auto Car Insurance System.</H3>
+       <P>React.js | SpringBoot | MySQL</P>
+       <img src="views.png" alt="" class="proj"> 
+      <img src="starrate.png" alt="" class="proj"> 
+    </div>
+</div>
+
+
+</div>
+
+ 
+</section>
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  </body>
+</html>

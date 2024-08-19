@@ -1,0 +1,431 @@
+header {
+    color: aliceblue;
+    padding: 10px;
+    position: relative;
+  }
+  
+
+
+
+
+  .logo {
+    width: 90px; 
+    height: 110%; /* Adjust height as needed */
+    margin-right: 1px; /* Adjust margin as needed */
+    position: absolute; /* Position the logo absolutely */
+    bottom: 0px; /* Align to the bottom */
+    top:60px;
+    right: -160px; /* Align to the right */
+}
+
+
+
+
+
+  
+  /* CSS for the title */
+  .title {
+    display: inline; /* Display the title as inline */
+    font-size:270%;
+  }
+
+
+
+  h1 {
+    text-align: center; /* Center the heading */
+  }
+  h2 {
+    color: cadetblue;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    opacity: 0; /* Initially set the opacity to 0 to make the element invisible */
+    animation-name: fadeIn; /* Specify the name of the animation */
+    animation-duration: 1s; /* Set the duration of the animation */
+    animation-delay: 0.5s; /* Optional delay before the animation starts */
+    animation-fill-mode: forwards; /* Keep the final state of the animation after it finishes */
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0; /* Initial opacity */
+    }
+    to {
+        opacity: 2; /* Final opacity */
+    }
+}
+
+.container {
+  text-align: center;
+  /* top:1% */
+  margin-top: 130px; 
+  background-image: url("kit2.webp");
+  background-size: cover; /* Ensure the background image covers the container */
+  width: 650px; /* Set width of the container */
+  height: 250px; /* Set height of the container */
+  border-radius: 10%; /* Make the container round */
+  overflow: hidden; /* Hide any content that exceeds the rounded corners */
+}
+
+.services {
+  text-align: center;
+  margin-top: 100px; 
+  background-size: cover; /* Ensure the background image covers the container */
+  width: 60px; /* Set width of the container */
+  height: 50px; /* Set height of the container */
+  border-radius: 0%; /* Make the container round */
+  overflow: hidden; /* Hide any content that exceeds the rounded corners */
+}
+
+  
+  .fonty {
+    font-size: medium;
+    font-style: italic;
+    font-variant: small-caps;
+    color: black;
+    /* margin-top: 80px; */
+  }
+
+  nav {
+    position: relative;
+    text-align:center; /* Align all items in the center */
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display:inline;
+    margin-right: 20px;
+  }
+  
+  nav ul li a {
+    color: chartreuse;
+    text-decoration: none;
+  }
+  
+  nav ul li a:hover {
+    color: cyan;
+  }
+  
+  nav ul li a img {
+    vertical-align: middle; /* Align images vertically */
+    margin-right: 5px; /* Add spacing between logo and text */
+  }
+  
+  .login img,
+  .checkout img {
+    width: 20px; /* Adjust the width as needed */
+    height: auto; /* Maintain aspect ratio */
+  }
+  .login {
+    position: absolute;
+    top: -60px; /* Adjust the vertical position */
+    right: -70px; /* Adjust the horizontal position */
+  }
+  
+  .checkout {
+    position: absolute;
+    top: -60px; /* Adjust the vertical position */
+    right: -190px; /* Adjust the horizontal position */
+  }
+  
+  .view-more-box {
+    background-color: green; /* Fill with green color */
+    border: 2px solid #ccc;
+    padding: 10px 20px;
+    display: inline-block;
+    text-align: center; /* Center the content horizontally */
+    position: absolute;
+    top:105%;
+    left: 45%;
+    transform: translate(-50%, -50%);
+    animation-name:bounce;
+    animation-duration: 1s;
+    animation-timing-function: ease-out;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+  }
+  
+  .view-more-box a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+  }
+
+  @keyframes bounce {
+    0%, 100% {
+      transform: translate(-50%, -50%) translateY(0);
+    }
+    50% {
+      transform: translate(-50%, -50%) translateY(-10px);
+    }
+  }
+
+
+
+
+  .sale-container5 {
+    display: flex;
+    flex-direction: column; /* Align items vertically */
+    justify-content: flex-start; /* Align items to the top */
+    align-items: flex-end; /* Align items to the right */
+    width: 200px; /* Set the width of the container */
+    position: absolute; /* Position absolute to align to the right side */
+    top: 240px; /* Adjust position from the top to match the position of the left side images */
+    right: 0; /* Align to the right side of the page */
+    padding: 20px; /* Optional padding */
+    z-index: 1; /* Ensure the container is above the background */
+   
+
+  }
+  
+  .sale-group {
+    width: 100%; /* Adjust the width of each group */
+    margin-bottom: 10px; /* Adjust spacing between groups */
+    position: relative;
+    top: 20px; 
+  }
+  
+
+  .sale-container5 .sale-group {
+    border: 1px solid #ccc; /* Add a 2px solid border with color #ccc */
+    padding: 5px; /* Add padding for better spacing */
+    margin: 5px; /* Add margin for better spacing */
+  }
+
+
+
+  .sale-group img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .sale-text {
+    position: absolute;
+    bottom: 10px; /* Adjust distance from the bottom */
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px; /* Optional border radius */
+  }
+  
+
+  .sale-group3 {
+    width: 100%; /* Adjust the width of each group */
+    margin-bottom: 10px; /* Adjust spacing between groups */
+    position: relative;
+    top: 20px; 
+  }
+
+
+
+
+
+  .sale-container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    top: 270px; 
+    width: 250px;
+ 
+     /* Set the width of the container */
+  }
+  
+  .sale-group {
+    position: relative;
+    width: 200px; /* Adjust the width of each group */
+    height: 230px; /* Adjust the height of each group */
+    margin-right: 10px; /* Adjust spacing between groups */
+    margin-bottom: 10px;
+    top: 20px;  /* Adjust spacing between rows */
+  }
+  
+
+  .sale-container .sale-group {
+    border: 1px solid #ccc; /* Add a 2px solid border with color #ccc */
+    padding: 5px; /* Add padding for better spacing */
+    margin: 5px; /* Add margin for better spacing */
+  }
+
+
+  .sale-group img {
+    width: 100%;
+    height: 100%;
+    object-fit:cover;
+  }
+  
+  .sale-text {
+    position: absolute;
+    bottom: 10px; /* Adjust distance from the bottom */
+    left: 10%;
+    transform: translateX(-50%);
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px; /* Optional border radius */
+  }
+  
+
+
+  .sale-container2 {
+    border: 10px solid #ccc;
+    padding: 10px;
+
+    
+  display: flex;
+  justify-content: flex-end; /* Align items to the right */
+  align-items: flex-start; /* Align items to the top */
+  flex-wrap: wrap;
+  top: 270px; 
+  width: 70%; /* Adjust width of the container */
+}
+
+.sale-group2 {
+  position: relative;
+  width: 200px; /* Adjust width of each group */
+  height: 200px; /* Adjust height of each group */
+  margin-left: 10px; /* Adjust spacing between groups */
+  margin-bottom: 10px; /* Adjust spacing between rows */
+}
+
+.sale-group2 img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  
+}
+
+.sale-text2{
+  position: absolute;
+  bottom: 100px; /* Adjust distance from the bottom */
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+  color: rgb(147, 17, 17);
+  padding: 5px 10px;
+  border-radius: 5px; /* Optional border radius */
+}
+.bor {
+  background-color: rgba(0, 0, 0, 0.5); /* Set background color with transparency */
+  background-image: url("kit4.jpg"); /* Set background image */
+  
+}
+
+h4 {
+  color: cadetblue;
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  text-align:end;
+ 
+}
+
+.copyright {
+  background-color: #654321; /* Dark brown */
+  color: #ffffff; /* White text */
+  padding: 10px; /* Add some padding for better spacing */
+  border-radius: 5px; /* Rounded corners */
+  font-family: Arial, sans-serif; /* Choose a clear font */
+  font-size: 14px; /* Adjust font size */
+  text-align: center; /* Center align text */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+}
+
+
+.social-media {
+  text-align: center; /* Center align the icons */
+}
+
+.social-media a {
+  display: inline-block; /* Ensure icons are on the same line */
+  margin: 0 10px; /* Add some space between icons */
+  font-size: 24px; /* Adjust icon size */
+  color: #333; /* Change icon color */
+  transition: color 0.3s ease; /* Add smooth transition effect */
+}
+
+.social-media a:hover {
+  color: #ff4500; /* Change icon color on hover */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.container {
+  display: flex;
+  flex-direction: column; /* Arrange children in a column */
+  align-items: center; /* Center align items horizontally */
+}
+
+.about-us {
+  width: 100%; /* Set width to 100% to occupy full width of the container */
+  margin-top: 30px; /* Add top margin for spacing between sections */
+}
+
+@media (min-width: 768px) {
+  .container {
+    flex-direction: row; /* Change direction to row for larger screens */
+    justify-content: center; /* Center align items horizontally */
+  }
+
+  .about-us {
+    margin-left: 20px; /* Add left margin for spacing between sections */
+  }
+}
+
+
+
+
+
+
+
+.gallery{
+  height: 80%;
+  width: 100%;
+  display: flex;
+  margin: 5% auto 0;
+  box-sizing: border-box;
+}
+
+.image-box{
+margin: 0 1%;
+flex-grow:1 ;
+flex-basis: 0;
+transition: .5s;
+}
+
+.image-box img{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  transition: .5s;
+  
+  }
+  .image-box:hover{
+    flex-basis: 20%;
+  }
+  .active{
+    flex-basis: 20%;
+  }
+  .gallery:hover.active{
+    flex-basis: 0;
+  }
+  .image-box:nth-child(1):hover{
+    flex-basis:30%;
+  }
+  .tran{
+    z-index: 1;
+  }

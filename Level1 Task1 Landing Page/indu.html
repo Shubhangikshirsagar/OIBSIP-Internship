@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>LANDING PAGE</title>
+    <!-- Add icon library -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="stylo.css" />
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+      }
+
+      .background-wrapper {
+        position: relative;
+        height: 50vh; /* Set the height to 50% of the viewport height */
+        overflow: hidden; /* Hide overflow content */
+      }
+
+      .background {
+        position: absolute;
+        top: 50;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-image: url("tower.jpg");
+        background-size: cover;
+        background-position: center;
+        z-index: -1; /* Move the background behind other content */
+      }
+
+      .content {
+        position: absolute;
+        top: 70%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+        z-index: 1; /* Ensure content is above the background */
+      }
+      .image-container {
+        display: flex;
+        justify-content: flex-end;
+        margin-top: 10px;
+        border: 10px solid #ccc;
+        padding: 14px;
+        /* background-color: #b9f1af; */
+      }
+
+      .image-box {
+        width: 100px;
+        height: 100px;
+        margin-left: 10px;
+        overflow: hidden;
+        border: 2px solid #ccc;
+      }
+
+      .image-box img {
+        width: 100%;
+        height:100%;
+      }
+
+      /* Added styles for .login and .checkout */
+      .login,
+      .checkout {
+        display: inline;
+      }
+
+
+      .about-us {
+        padding: 20px;
+        position: absolute;
+        top: 205%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+
+        background-color: #f9f9f9;
+        text-align: center;
+      }
+
+    </style>
+  </head>
+  <body>
+    <div class="background-wrapper">
+      <div class="background"></div>
+    </div>
+
+    <div class="content">
+      <header>
+        <img src="z.jpg" alt="Logo" class="logo">
+        <h1 class="title">TEAK WOODMART</h1>
+        <nav>
+          <a href="z.jpg"></a>
+          <ul>
+            <a href="z.jpg"></a>
+            <li><a href="#">HOME</a></li>
+            <li><a href="#">SHOP</a></li>
+            <li><a href="#">BLOG</a></li>
+            <li><a href="#">FEATURE</a></li>
+            <li><a href="#">ABOUT</a></li>
+            <li><a href="#">CONTACT</a></li>
+            <li class="checkout">
+              <a href="#"><img src="download.png" alt="Checkout" /> CHECKOUT</a>
+            </li>
+            <li class="login">
+              <a href="#"><img src="download.jpg" alt="Login" /> LOGIN</a>
+            </li>
+          </ul>
+        </nav>
+      </header>
+
+      <h2>NEW COLLECTION</h2>
+
+      <div class="container">
+        <p class="fonty">
+          Welcome to our online store!<br />
+          We are passionate about aesthetic wood furniture and strive to offer
+          high quality<br />affordable pieces that will enhance the beauty and
+          functionality of your home.<br />
+          Thank you for choosing us as your source for beautiful furniture.
+        </p>
+      </div>
+
+      <br />
+      <div class="view-more-box">
+        <a href="#">View More</a>
+      </div>
+
+
+      
+      <div class="image-container gallery">
+
+        <div class="image-box active">
+          <img src="8.jpg" alt="Image 1" />
+        </div>
+
+        <div class="image-box">
+          <img src="7.jpg" alt="Image 2" />
+        </div>
+        <div class="image-box">
+          <img src="6.jpg" alt="Image 3" />
+        </div>
+        <div class="image-box">
+          <img src="5.jpg" alt="Image 4" />
+        </div>
+        <div class="image-box">
+          <img src="4.jpg" alt="Image 4" />
+        </div>
+      </div>
+    </div>
+
+
+  
+
+
+
+
+   
+    <!-- <div class="gallery">
+      <div class="image-box active">
+        <img src="8.jpg" alt="Image 1" />
+      </div>
+
+      <div class="image-box">
+        <img src="7.jpg" alt="Image 1" />
+      </div>
+
+      <div class="image-box">
+        <img src="5.jpg" alt="Image 1" />
+      </div>
+
+      <div class="image-box">
+        <img src="4.jpg" alt="Image 1" />
+      </div>
+    </div> -->
+
+
+
+
+
+
+
+
+
+    <div class="sale-container">
+      <div class="sale-group">
+        <img src="p.jpg" alt="On Sale" />
+        <div class="sale-text">On Sale $70</div>
+      </div>
+      <div class="sale-group">
+        <img src="q.jpg" alt="On Sale" />
+        <div class="sale-text">On Sale $10</div>
+      </div>
+      <div class="sale-group tran">
+        <img src="s.jpg" alt="On Sale" />
+        <div class="sale-text">On Sale $15</div>
+      </div>
+    </div>
+
+    <!--     
+  </BR>
+    <div class="view-more-box">
+      <a href="#">View More</a>
+    </div> -->
+
+
+    
+    <iframe
+    border: 30px;
+      width="500"
+      height="300"
+      src="https://www.youtube.com/embed/QWXz33YmG5E"
+      frameborder="6"
+      allowfullscreen
+      style="margin-top: -600px; margin-left: 310px"
+    ></iframe>
+
+
+
+
+   
+  
+
+
+
+    <div class="containery">
+      <div class="about-us">
+        <h2 style="text-decoration: underline;">About Us</h2>
+        <h1>15 years, we passionate about achieving better results for our clients</h1>
+        <p>We are Teak Woodmart, your premier destination for high-quality wood furniture. Our mission is to provide aesthetically pleasing and functional furniture pieces that enhance the beauty of your home. With a passion for craftsmanship and a commitment to affordability, we strive to exceed your expectations with every purchase. Thank you for choosing Teak Woodmart for your furniture needs.</p>
+      </div>
+    </div>
+
+
+
+
+    <div class="services">
+      <div class="our">
+        <h1 style="text-decoration: underline;">OurServices</h1>
+        <h1>a</h1>
+        <h1>a</h1>
+        <h1>a</h1>
+        <h1>a</h1>
+
+      </div>
+    </div>
+
+
+
+
+
+
+
+
+
+  
+
+    <div class="sale-container5">
+      <div class="sale-group">
+        <img src="u.jpg" alt="On Sale" />
+        <div class="sale-text">On Sale $20</div>
+      </div>
+      <div class="sale-group">
+        <img src="w.jpg" alt="On Sale" />
+        <div class="sale-text">On Sale $28</div>
+      </div>
+      <div class="sale-group">
+        <img src="x.jpg" alt="On Sale" />
+        <div class="sale-text">On Sale $10</div>
+      </div>
+    </div>
+
+    <!-- <div class="buy-now-box">
+      <a href="#">Buy Now</a>
+    </div> -->
+
+
+
+
+
+
+
+
+
+
+
+
+    <div class="bor">
+      <div class="sale-container2">
+        <div class="sale-group2">
+          <img src="N.jpg" alt="On Sale" />
+          <div class="sale-text">RS-1000</div>
+        </div>
+        <div class="sale-group2">
+          <img src="O.jpg" alt="On Sale" />
+          <div class="sale-text">RS-1000</div>
+        </div>
+        <div class="sale-group2">
+          <img src="M.jpg" alt="On Sale" />
+          <div class="sale-text">RS-1000</div>
+        </div>
+        <div class="sale-group2">
+          <img src="E.jpg" alt="On Sale" />
+          <div class="sale-text">RS-250</div>
+        </div>
+
+        <div class="sale-group2">
+          <img src="B.webp" alt="On Sale" />
+          <div class="sale-text">RS-500</div>
+        </div>
+        <div class="sale-group2">
+          
+          
+          <img src="F.jpg" alt="On Sale" />
+          <div class="sale-text">RS-980</div>
+        </div>
+
+      </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+    <footer>
+      <div class="footer-content">
+        <div class="social-media">
+          <a href="#" class="fa fa-facebook"></a>
+          <a href="#" class="fa fa-twitter"></a>
+          <a href="#" class="fa fa-instagram"></a>
+        </div>
+      </div>
+    </footer>
+    
+
+
+          
+          <!-- Add more social media icons as needed -->
+        </div>
+        <div class="copyright">
+          &copy; 2024 TEAK WOODMART. All rights reserved.
+        </div>
+      </div>
+    </footer>
+
+
+
+  </body>
+</html>
